@@ -19,7 +19,7 @@ for(let i =0;i<marks.length;i++)
 //console.log(marks[i])
 sum = sum + marks[i] // 32+40
 console.log(sum)
-// reduce filter map
+// reduce filter map ( reduce method use to perform operations on all elements of an array )
 let total =marks.reduce((sum,mark)=>sum+mark,0)
 console.log(total)
 
@@ -28,9 +28,37 @@ var scores = [12,13,14,15,16]
 var evenScores = []
 for(let i =0;i<scores.length;i++)
 {
-  if(scores[i]%2==0)
+  if(scores[i]%2==0) 
    {
       evenScores.push(scores [i])
    }
 }
 console.log(evenScores)
+let newFilterEvenScores = scores.filter(score=>score%2==0) // does the same thing which is done in previous for loop.
+console.log(newFilterEvenScores) // [12,14,16]
+
+//map function used to modify each and every element in an array.
+//like //create new array with even numbers of scores and multiply each value with 3 
+let MappedArray = newFilterEvenScores.map(score=>score*3)
+console.log(MappedArray)
+
+let totalVal=MappedArray.reduce((sum,val)=>sum+val,0)
+console.log(totalVal)
+
+var scores1 = [12,13,14,16]
+let sumValue=scores1.filter(score=>score%2==0).map(score=>score*3).reduce((sum,val)=>sum+val,0)
+console.log(sumValue) //chaining
+
+//sorting
+let fruits =["banana" , "mango" , "pomogrante" , "apple"]
+fruits.sort()   //sorts array according to alphabets
+fruits.reverse() //sorts in reverse order
+console.log(fruits)
+
+var scores2 = [12,3,16,18,14]
+console.log(scores2.sort())
+scores2.sort(function(a,b){  
+return a-b
+})
+
+
