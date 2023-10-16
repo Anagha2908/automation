@@ -9,6 +9,7 @@ let sum = add(2,3)
 console.log(sum)
 
 //do not have name => Anonymous functions -- function expression
+   
 
 let sumofinteger = function(c,d)
     {
