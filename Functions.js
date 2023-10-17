@@ -17,4 +17,5 @@ let sumofinteger = function(c,d)
     }
 
     let sumofNumber = ( c,d )=>c+d  // => this symbol is called fat pipe and use to represent anonymous function.
+    //means you dont need to write function keyword here only here (c,d)will work, => is representation of function keyword.
     console.log(sumofNumber(2,3))
