@@ -1,5 +1,5 @@
 //block or code
-
+var greet = "morning 1" //the scope of this var is global
 function add(a,b) 
 {
     return a+b
@@ -13,7 +13,8 @@ console.log(sum)
 
 let sumofinteger = function(c,d)
     {
-        var greet = "morning"  //the scope of var keyword is insdie this function only it will die outside this function
+        var greet = "morning"  //the scope of var keyword is insdie this function only,
+        // it will die outside this function, the scope of this var is inside this function.
         return c + d
     }
 
@@ -21,4 +22,4 @@ let sumofinteger = function(c,d)
     //means you dont need to write function keyword here only here (c,d)will work, => is representation of function keyword.
     console.log(sumofNumber(2,3))
 
-    
+    console.log(greet)
