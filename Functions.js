@@ -23,3 +23,9 @@ let sumofinteger = function(c,d)
     console.log(sumofNumber(2,3))
 
     console.log(greet)
+
+// var keyword scope - global level/ functional
+// let keyword scope - global level/block level { }
+// const keyword cant be re initialized so it will through an error if the statement is const greet= "evening" , greet = "morning"
+
+
