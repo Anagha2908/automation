@@ -27,11 +27,11 @@ console.log(typeof(b)) // (data type 'number')
 
  // 'null' data type :- if we store null value in any variable.
  //'undefined' data type :- if you dont create or assign any value to the variable.
- //let c=a+b (this will not work as 'let' keyword is used,we cannot redeclare same variable with 'let')
+ //let c=a+b (this will not work as 'let' keyword is used, we cannot redeclare same variable with 'let')
  //var c=a+b (this will work) //  both redeclaring and re assigning are possible with 'var'keyword.
  d=a+b // only reassigning is possible with 'let' keyword but re declaring is not possible.
  console.log(d) 
- const e=23 // do declare any data constant in whole script 'const' is used
+ const e=23 // to declare any data constant in whole script 'const' is used
  // e=a+b (this is not possible as we are reassigning to constant variable)
  console.log(e) //const<<let<<var
  
