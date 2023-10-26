@@ -22,3 +22,11 @@ console.log(val)
 
 let val1 = newquote.indexOf("day",5) //here there are two "day" in sentence so to select 2nd day index value after 4th is choosen.
 console.log(val1)
+
+let count = 0
+let value =newquote.indexOf('day')
+while(value!== -1)
+ {count++ // 2
+value=newquote.indexOf("day", value+1)
+ }
+console.log(count)
