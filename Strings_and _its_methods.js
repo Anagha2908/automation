@@ -27,6 +27,6 @@ let count = 0
 let value =newquote.indexOf('day')
 while(value!== -1)
  {count++ // 2
-value=newquote.indexOf("day", value+1)
+value = newquote.indexOf("day", value+1) // this program runs and finds the "day" in whole program how many time it is coming
  }
 console.log(count)
