@@ -3,10 +3,11 @@ let person = {
     firstName: 'Tim', //object can include string, integers and even methods
     lastName: 'joe',
     age: 24,
-    fullName : function () {
+    fullName: function () {
         console.log(this.firstName + this.lastName) // inside a object you cannot call it property only with help of this keyword you can call.
-    } 
+    }
 }
+console.log(person.fullName()) // always apply () for calling method function.
 console.log(person.lastName) //this and below line will give same output
 console.log(person['lastName']) //here lastname is used as index value
 
