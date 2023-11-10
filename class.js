@@ -1,4 +1,5 @@
-class Person {
+module.exports = class Person // to export a class use module.export
+{ 
     age = 25
 
     get location() // get defines that its just a property not a method. used for pom

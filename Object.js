@@ -1,4 +1,5 @@
 //object is collection of properties
+const Person = require("./class") // this require keyword is used to import any class.
 let person = {
     firstName: 'Tim', //object can include string, integers and even methods
     lastName: 'joe',
