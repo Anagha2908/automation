@@ -5,7 +5,7 @@ console.log(" Hello World ")
 // to declare any variable in js we need to use "let" keyword.
 // we need to save the code before running each time.
 
-let a=4  // declaration of v'a' variable // (data type 'number')
+let a=4  // declaration of 'a' variable // (data type 'number')
 console.log(a) // to print alue a 'a' variable.
 console.log(typeof(a)) // use 'typeof' to get the exact data type of varibale to be printed in console.
 
