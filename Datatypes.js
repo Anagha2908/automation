@@ -21,7 +21,7 @@ console.log(typeof(b)) // (data type 'number')
 
  let required = true // data type is 'boolean' i.e 'true or false'
  console.log(typeof(required)); 
- console.log(required) // Output will be true
+ console.log(required) // Output will be truegit 
  console.log(!required) // '!' mark is added to to convert ture into false. 
 
 
@@ -33,5 +33,5 @@ console.log(typeof(b)) // (data type 'number')
  console.log(d) 
  const e=23 // to declare any data constant in whole script 'const' is used
  // e=a+b (this is not possible as we are reassigning to constant variable)
- console.log(e) //const<<let<<var
+ console.log(e) //const<<let<<var .
  
